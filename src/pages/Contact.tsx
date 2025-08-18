@@ -42,7 +42,7 @@ const Contact = () => {
     {
       country: "Bangladesh",
       flag: "🇧🇩",
-      title: "Headquarters",
+      title: "Regional Office",
       address: "Dhaka, Bangladesh",
       phone: "+880-XXX-XXXXXXX",
       email: "bd@livengroup.com",
@@ -51,7 +51,7 @@ const Contact = () => {
     {
       country: "Cambodia",
       flag: "🇰🇭",
-      title: "Regional Office",
+      title: "Headquarters",
       address: "Phnom Penh, Cambodia",
       phone: "+855-XXX-XXXXXXX",
       email: "kh@livengroup.com",
@@ -269,8 +269,7 @@ const Contact = () => {
                       <h3 className="text-lg font-semibold text-gray-900 mb-1">
                         Email Us
                       </h3>
-                      <p className="text-gray-600">info@livengroup.com</p>
-                      <p className="text-gray-600">contact@livengroup.com</p>
+                      <p className="text-gray-600">liven2028@gmail.com</p>
                     </div>
                   </div>
 
@@ -283,7 +282,7 @@ const Contact = () => {
                         Call Us
                       </h3>
                       <p className="text-gray-600">
-                        +880-XXX-XXXXXXX (Bangladesh)
+                        +880-162-9777714 (Bangladesh)
                       </p>
                       <p className="text-gray-600">
                         +855-XXX-XXXXXXX (Cambodia)
@@ -329,7 +328,7 @@ const Contact = () => {
                   <div className="flex items-center space-x-3">
                     <Globe className="w-6 h-6 text-blue-600" />
                     <span className="text-gray-700">
-                      Operations in 3 Countries
+                      Operations in 4 Countries
                     </span>
                   </div>
                   <div className="flex items-center space-x-3">

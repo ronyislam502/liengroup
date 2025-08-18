@@ -17,7 +17,7 @@ const Home = () => {
       value: "13+",
       color: "text-blue-600",
     },
-    { icon: Globe, label: "Countries", value: "3+", color: "text-green-600" },
+    { icon: Globe, label: "Countries", value: "4+", color: "text-green-600" },
     {
       icon: Users,
       label: "Global Team",

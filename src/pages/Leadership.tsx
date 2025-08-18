@@ -1,4 +1,13 @@
-import { Crown, Award, TrendingUp, Globe, Quote } from "lucide-react";
+import {
+  Crown,
+  Award,
+  TrendingUp,
+  Globe,
+  Quote,
+  Wrench,
+  Laptop,
+  Briefcase,
+} from "lucide-react";
 
 const Leadership = () => {
   const leaders = [
@@ -48,6 +57,54 @@ const Leadership = () => {
         "Strategic planning and execution",
         "Technology integration pioneer",
         "Sustainable growth architect",
+      ],
+    },
+    {
+      id: 4,
+      name: "Muhammad Shaalam",
+      position: "General Manager",
+      image: "https://i.postimg.cc/1X82Ln93/shaalam.jpg",
+      message:
+        "At LIVEN GROUP, I ensure smooth coordination across departments, driving operational excellence and aligning teams with our long-term vision.",
+      icon: Briefcase,
+      gradient: "from-teal-600 to-teal-800",
+      achievements: [
+        "10+ years of management experience",
+        "Expert in organizational leadership",
+        "Proven skills in team building and motivation",
+        "Operational excellence across multiple industries",
+      ],
+    },
+    {
+      id: 5,
+      name: "MD. Mehedi Hasan",
+      position: "Project Engineer",
+      image: "https://i.postimg.cc/pV50Mtfr/mehedi.jpg",
+      message:
+        "Engineering success is about precision, innovation, and sustainability. At LIVEN GROUP, I ensure every project sets new benchmarks in quality and impact.",
+      icon: Wrench, // you can also use Settings or Hammer icon from lucide-react
+      gradient: "from-orange-600 to-orange-800",
+      achievements: [
+        "Expertise in large-scale project execution",
+        "Innovative engineering solutions",
+        "Commitment to safety and sustainability",
+        "Strong track record in on-time delivery",
+      ],
+    },
+    {
+      id: 6,
+      name: "Rony Islam",
+      position: "Head of IT",
+      image: "https://i.postimg.cc/506sthDP/Rony-Islam-sut.png", // replace with real link
+      message:
+        "Technology is the backbone of modern business. I drive digital transformation at LIVEN GROUP to ensure efficiency, security, and innovation across all operations.",
+      icon: Laptop, // or Server / Cpu from lucide-react
+      gradient: "from-red-600 to-red-800",
+      achievements: [
+        "Leader in digital transformation",
+        "Expert in enterprise IT systems",
+        "Cybersecurity and cloud solutions specialist",
+        "Innovator in automation and data-driven decision making",
       ],
     },
   ];

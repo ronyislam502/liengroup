@@ -71,11 +71,11 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-blue-400" />
-                <span className="text-gray-400">Bangladesh (HQ)</span>
+                <span className="text-gray-400">Bangladesh </span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-blue-400" />
-                <span className="text-gray-400">Cambodia</span>
+                <span className="text-gray-400">Cambodia (HQ)</span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-blue-400" />
@@ -96,11 +96,11 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-blue-400" />
-                <span className="text-gray-400">info@livengroup.com</span>
+                <span className="text-gray-400">liven2028@gmail.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-blue-400" />
-                <span className="text-gray-400">+880-XXX-XXXXXXX</span>
+                <span className="text-gray-400">+880-162-9777714</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Globe className="w-4 h-4 text-blue-400" />
