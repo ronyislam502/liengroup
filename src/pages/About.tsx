@@ -93,7 +93,7 @@ const About = () => {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600 mb-2">
-                    13+
+                    12+
                   </div>
                   <div className="text-gray-600 font-medium">
                     Sister Companies
@@ -101,7 +101,7 @@ const About = () => {
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-600 mb-2">
-                    3
+                    4+
                   </div>
                   <div className="text-gray-600 font-medium">Countries</div>
                 </div>

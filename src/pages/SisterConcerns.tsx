@@ -1,46 +1,28 @@
 import { useState } from "react";
-import {
-  Building2,
-  Globe,
-  MapPin,
-  Factory,
-  Shield,
-  Stethoscope,
-  Wheat,
-  Home,
-} from "lucide-react";
+import { Building2, Globe, MapPin, Home } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const SisterConcerns = () => {
   const [selectedCountry, setSelectedCountry] = useState("all");
 
   const companies = [
-    {
-      id: 1,
-      name: "Liven Overseas Ltd.",
-      description:
-        "Specializes in overseas trade, import-export services, and connecting global markets with high-quality products and solutions.",
-      country: "bangladesh",
-      icon: Globe,
-      gradient: "from-blue-500 to-blue-600",
-      category: "Trade",
-    },
-    {
-      id: 2,
-      name: "Liven International Ltd.",
-      description:
-        "Engaged in large-scale international business operations, focusing on global procurement, logistics, and supply chain management.",
-      country: "bangladesh",
-      icon: Building2,
-      gradient: "from-green-500 to-green-600",
-      category: "Logistics",
-    },
+    // {
+    //   id: 2,
+    //   name: "Liven International Ltd.",
+    //   description:
+    //     "Engaged in large-scale international business operations, focusing on global procurement, logistics, and supply chain management.",
+    //   country: "bangladesh",
+    //   icon: Building2,
+    //   gradient: "from-green-500 to-green-600",
+    //   category: "Logistics",
+    // },
     {
       id: 3,
       name: "Liven International Merchant Ltd.",
       description:
         "A leading merchant company offering diverse product lines, from industrial goods to consumer products, across international markets.",
       country: "bangladesh",
-      icon: Factory,
+      icon: "https://i.postimg.cc/QdbmWYP1/livenbd.jpg",
       gradient: "from-purple-500 to-purple-600",
       category: "Merchant",
     },
@@ -50,9 +32,10 @@ const SisterConcerns = () => {
       description:
         "A trusted name in infrastructure development, civil engineering, and modern construction projects for both public and private sectors.",
       country: "bangladesh",
-      icon: Building2,
+      icon: "https://i.postimg.cc/SxX2G0z3/led.jpg",
       gradient: "from-orange-500 to-orange-600",
-      category: "Engineering",
+      category: "Real State",
+      website: "https://www.led.livengroupbd.com",
     },
     {
       id: 5,
@@ -60,9 +43,10 @@ const SisterConcerns = () => {
       description:
         "A dynamic trading company providing reliable commercial and merchant services with a focus on sustainable business practices.",
       country: "bangladesh",
-      icon: Globe,
+      icon: "https://i.postimg.cc/9f9nwYdh/ax.jpg",
       gradient: "from-teal-500 to-teal-600",
       category: "Trading",
+      website: "https://www.max.livengroupbd.com",
     },
     {
       id: 6,
@@ -70,9 +54,9 @@ const SisterConcerns = () => {
       description:
         "Engaged in technology, consultancy, and commercial services to support global business operations.",
       country: "bangladesh",
-      icon: Building2,
+      icon: "https://i.postimg.cc/430QfbRH/xavier-corr.jpg",
       gradient: "from-indigo-500 to-indigo-600",
-      category: "Technology",
+      category: "Real State",
     },
     {
       id: 7,
@@ -80,7 +64,7 @@ const SisterConcerns = () => {
       description:
         "Security & Research Firm providing advanced security solutions, intelligence gathering, and risk assessment services for corporate, government, and international clients.",
       country: "bangladesh",
-      icon: Shield,
+      icon: "https://i.postimg.cc/Jzw3D5tM/lobal-s.jpg",
       gradient: "from-red-500 to-red-600",
       category: "Security",
     },
@@ -90,7 +74,7 @@ const SisterConcerns = () => {
       description:
         "A Cambodia-based trading hub for regional and international commerce in Southeast Asia.",
       country: "cambodia",
-      icon: Globe,
+      icon: "https://i.postimg.cc/L6PLpgD7/phn.jpg",
       gradient: "from-blue-500 to-blue-600",
       category: "Trade",
     },
@@ -100,7 +84,7 @@ const SisterConcerns = () => {
       description:
         "Engaged in wholesale and retail merchant trading in Cambodia, focusing on high-quality goods and services.",
       country: "cambodia",
-      icon: Factory,
+      icon: "https://i.postimg.cc/FRn39j2t/max-mar.jpg",
       gradient: "from-green-500 to-green-600",
       category: "Merchant",
     },
@@ -110,9 +94,19 @@ const SisterConcerns = () => {
       description:
         "Specializes in civil engineering, infrastructure development, and large-scale construction projects across Cambodia.",
       country: "cambodia",
-      icon: Building2,
+      icon: "https://i.postimg.cc/fLgc2Wkn/royal-bengal.jpg",
       gradient: "from-purple-500 to-purple-600",
-      category: "Engineering",
+      category: "Real State",
+    },
+    {
+      id: 1,
+      name: "Liven Overseas Ltd.",
+      description:
+        "Specializes in overseas tourist, air ticket,visa processing, man-power solutions agency",
+      country: "bangladesh",
+      icon: "https://i.postimg.cc/N0X5X1rH/oveseas.jpg",
+      gradient: "from-blue-500 to-blue-600",
+      category: "Tourism",
     },
     {
       id: 11,
@@ -120,9 +114,10 @@ const SisterConcerns = () => {
       description:
         "Focused on agricultural production, agro-processing, and sustainable farming to support food security and export markets.",
       country: "cambodia",
-      icon: Wheat,
+      icon: "https://i.postimg.cc/tJY1YhX8/max-agro.jpg",
       gradient: "from-yellow-500 to-yellow-600",
       category: "Agriculture",
+      website: "https://maxagrofarm.com/",
     },
     {
       id: 12,
@@ -130,7 +125,7 @@ const SisterConcerns = () => {
       description:
         "A healthcare provider offering quality medical services, hospital management, and advanced treatment facilities in Cambodia.",
       country: "cambodia",
-      icon: Stethoscope,
+      icon: "https://i.postimg.cc/kMzpnZ35/ibn.jpg",
       gradient: "from-pink-500 to-pink-600",
       category: "Healthcare",
     },
@@ -140,9 +135,10 @@ const SisterConcerns = () => {
       description:
         "A real estate and property development company engaged in modern residential, commercial, and infrastructure projects in Ukraine.",
       country: "ukraine",
-      icon: Home,
+      icon: "https://i.postimg.cc/FK4rkwbj/cropped-logo.jpg",
       gradient: "from-cyan-500 to-cyan-600",
       category: "Real Estate",
+      website: "https://kyivdeveloper.com",
     },
   ];
 
@@ -215,7 +211,7 @@ const SisterConcerns = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredCompanies.map((company) => {
-              const Icon = company.icon;
+              // const Icon = company.icon;
               return (
                 <div key={company.id} className="group">
                   <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 h-full">
@@ -224,32 +220,42 @@ const SisterConcerns = () => {
                     ></div>
                     <div className="p-8">
                       <div className="flex items-start justify-between mb-6">
-                        <div
-                          className={`w-14 h-14 bg-gradient-to-r ${company.gradient} rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-200`}
-                        >
-                          <Icon className="w-7 h-7 text-white" />
-                        </div>
-                        <div className="flex items-center text-sm text-gray-500">
-                          <MapPin className="w-4 h-4 mr-1" />
-                          <span className="capitalize">{company.country}</span>
-                        </div>
+                        <img
+                          src={company?.icon as string}
+                          alt={company.name}
+                          className="w-50 h-40 object-contain mx-auto"
+                        />
                       </div>
 
                       <h3 className="text-xl font-bold text-gray-900 mb-3 leading-tight">
                         {company.name}
                       </h3>
 
-                      <div className="mb-4">
+                      <div className="mb-4 flex justify-between">
                         <span
                           className={`inline-block px-3 py-1 rounded-full text-sm font-medium bg-gradient-to-r ${company.gradient} text-white`}
                         >
                           {company.category}
                         </span>
+                        <div className="flex items-center text-sm text-gray-500">
+                          <MapPin className="w-4 h-4 mr-1" />
+                          <span className="capitalize">{company.country}</span>
+                        </div>
                       </div>
 
                       <p className="text-gray-600 leading-relaxed">
                         {company.description}
                       </p>
+                      {company.website && (
+                        <Link
+                          to={company.website}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:underline font-medium"
+                        >
+                          <span className="mt-5">Visit Website</span>
+                        </Link>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -276,7 +282,7 @@ const SisterConcerns = () => {
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center">
                 <Building2 className="w-8 h-8 text-white" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 mb-2">7</div>
+              <div className="text-3xl font-bold text-gray-900 mb-2">6</div>
               <div className="text-gray-600 font-medium">
                 Companies in Bangladesh
               </div>

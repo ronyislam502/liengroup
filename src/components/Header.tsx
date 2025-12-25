@@ -23,7 +23,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3 group">
             <div>
               <img
-                src="https://i.postimg.cc/8ktN8TLB/livengroup.jpg"
+                src="https://i.postimg.cc/xdpfhjrs/lb-logo.jpg"
                 alt="Company Logo"
                 className="h-12 w-auto object-contain"
               />

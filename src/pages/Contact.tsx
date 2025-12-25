@@ -44,8 +44,7 @@ const Contact = () => {
       flag: "🇧🇩",
       title: "Regional Office",
       address: "Dhaka, Bangladesh",
-      phone: "+880-XXX-XXXXXXX",
-      email: "bd@livengroup.com",
+      email: "livengroup.ceo@gmail.com",
       gradient: "from-green-500 to-green-600",
     },
     {
@@ -53,8 +52,7 @@ const Contact = () => {
       flag: "🇰🇭",
       title: "Headquarters",
       address: "Phnom Penh, Cambodia",
-      phone: "+855-XXX-XXXXXXX",
-      email: "kh@livengroup.com",
+      email: "livengroup.ceo@gmail.com",
       gradient: "from-blue-500 to-blue-600",
     },
     {
@@ -62,8 +60,7 @@ const Contact = () => {
       flag: "🇺🇦",
       title: "Development Office",
       address: "Kyiv, Ukraine",
-      phone: "+380-XXX-XXXXXXX",
-      email: "ua@livengroup.com",
+      email: "livengroup.ceo@gmail.com",
       gradient: "from-yellow-500 to-yellow-600",
     },
   ];
@@ -269,7 +266,7 @@ const Contact = () => {
                       <h3 className="text-lg font-semibold text-gray-900 mb-1">
                         Email Us
                       </h3>
-                      <p className="text-gray-600">liven2028@gmail.com</p>
+                      <p className="text-gray-600">livengroup.ceo@gmail.com</p>
                     </div>
                   </div>
 
@@ -283,9 +280,6 @@ const Contact = () => {
                       </h3>
                       <p className="text-gray-600">
                         +880-162-9777714 (Bangladesh)
-                      </p>
-                      <p className="text-gray-600">
-                        +855-XXX-XXXXXXX (Cambodia)
                       </p>
                     </div>
                   </div>
@@ -375,10 +369,6 @@ const Contact = () => {
                     <div className="flex items-start space-x-3">
                       <MapPin className="w-5 h-5 text-gray-400 flex-shrink-0 mt-0.5" />
                       <span className="text-gray-600">{office.address}</span>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <Phone className="w-5 h-5 text-gray-400 flex-shrink-0 mt-0.5" />
-                      <span className="text-gray-600">{office.phone}</span>
                     </div>
                     <div className="flex items-start space-x-3">
                       <Mail className="w-5 h-5 text-gray-400 flex-shrink-0 mt-0.5" />

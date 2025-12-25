@@ -7,6 +7,7 @@ import {
   Wrench,
   Laptop,
   Briefcase,
+  Users,
 } from "lucide-react";
 
 const Leadership = () => {
@@ -45,7 +46,7 @@ const Leadership = () => {
     },
     {
       id: 3,
-      name: "Muhammad Al Jabir",
+      name: "Dr.Md Shahidul Islam ( Al -Jabir)",
       position: "Managing Director",
       image: "https://i.postimg.cc/8C29Q0CS/jabir.jpg",
       message:
@@ -73,6 +74,22 @@ const Leadership = () => {
         "Expert in organizational leadership",
         "Proven skills in team building and motivation",
         "Operational excellence across multiple industries",
+      ],
+    },
+    {
+      id: 7,
+      name: "SHAHINUR ISLAM",
+      position: "Assistant General Manager",
+      image: "https://i.postimg.cc/GmLMm12v/shinur.jpg",
+      message:
+        "As Assistant General Manager, my focus is on supporting leadership, ensuring operational efficiency, and driving continuous growth through teamwork and innovation.",
+      icon: Users,
+      gradient: "from-indigo-600 to-indigo-800",
+      achievements: [
+        "Strong background in business operations",
+        "Skilled in team coordination and leadership",
+        "Proven ability to optimize workflow efficiency",
+        "Committed to innovation and sustainable growth",
       ],
     },
     {

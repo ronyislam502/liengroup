@@ -14,7 +14,7 @@ const Home = () => {
     {
       icon: Building2,
       label: "Sister Companies",
-      value: "13+",
+      value: "12+",
       color: "text-blue-600",
     },
     { icon: Globe, label: "Countries", value: "4+", color: "text-green-600" },
