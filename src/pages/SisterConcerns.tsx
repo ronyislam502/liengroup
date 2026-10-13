@@ -104,9 +104,10 @@ const SisterConcerns = () => {
       description:
         "Specializes in overseas tourist, air ticket,visa processing, man-power solutions agency",
       country: "bangladesh",
-      icon: "https://i.postimg.cc/N0X5X1rH/oveseas.jpg",
+      icon: "https://res.cloudinary.com/dfacdgxdm/image/upload/q_auto/f_auto/v1776684082/Screenshot_2026-04-20_172053_li5ltp.png",
       gradient: "from-blue-500 to-blue-600",
       category: "Tourism",
+      website: "https://www.love.livengroupbd.com"
     },
     {
       id: 11,
